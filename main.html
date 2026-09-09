@@ -1,23 +1,62 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-    content="wight=device-wight,
-    initial-scale=1.0">
-    <link rel="stylesheet"
-href="win.css">
-    
-    <title>Мoя пустая страница</title>
-    
-    </head>
-    <body>
-        <header>
-        <h1 style="color: rgb(214, 100, 100);">Hello</h1>
-        </header>
-    <p style="color:rgb(182, 79, 207)">Привет</p> 
+    <title>Сайт-визитка</title>
+    <link rel="stylesheet" href="win.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#block1">Обо мне</a>
+            <a href="#block2">Фото</a>
+            <a href="#block3">Достижения</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="block1">
+            <h1>Кирилл Герасимов</h1>
+            <p>Привет! Меня зовут Кирилл, я диктор канала мастерская настроения. Учусь на программиста. В этом
+                разделе вы можете узнать немного обо мне и моих интересах.</p>
+        </section>
+
+        <section id="block2">
+            <h2>Моё любимое фото</h2>
+            <img src="image.png" alt="Моё любимое фото">
+        </section>
+
+        <section id="block3">
+            <h2>Мои достижения</h2>
+            <ul>
+                <li>Поиграл в волейбол на физкультуре</li>
+                <li>Окончил 9 классов школы</li>
+                <li>Выпил <a href="https://moytoptyzhka.ru/">топтыжку</a> шоколодную по скидке в гулливере</li>
+                <li>Сделал мобильное приложение таймер помодоро</li>
+            </ul>
+        </section>
+    </main>
+
     <footer>
-        <p style="color: blue;"> Салам </p>
+        <div>
+            <h3>Контакты</h3>
+            <p>Телефон: +7 (667) 228-14-88</p>
+            <p>Email: gerasimov090608@gmail.com</p>
+        </div>
+        <div>
+            <h3>Адрес</h3>
+            <p>г. Ульяновск, ул. Андрея Блаженного, д. 3</p>
+        </div>
+        <div>
+            <h3>Мои ссылки</h3>
+            <p><a href="https:/t.me/kirger1">Telegram</a></p>
+            <p><a href="https://github.com/kirgerz">GitHub</a></p>
+        </div>
     </footer>
-    </body>
-    </html>
+
+</body>
+
+</html>
