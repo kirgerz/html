@@ -3,60 +3,62 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт-визитка</title>
     <link rel="stylesheet" href="win.css">
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <a href="#block1">Обо мне</a>
-            <a href="#block2">Фото</a>
-            <a href="#block3">Достижения</a>
+    <header class="header">
+        <nav class="nav">
+            <a href="#block1" class="nav-link">Обо мне</a>
+            <a href="#block2" class="nav-link">Фото</a>
+            <a href="#block3" class="nav-link">Достижения</a>
         </nav>
     </header>
 
-    <main>
-        <section id="block1">
+    <main class="main">
+        <section id="block1" class="section section-about">
             <h1>Кирилл Герасимов</h1>
-            <p>Привет! Меня зовут Кирилл, я диктор канала мастерская настроения. Учусь на программиста. В этом
+            <p>Привет! Меня зовут Кирилл, я студент. Учусь на программиста. В этом
                 разделе вы можете узнать немного обо мне и моих интересах.</p>
         </section>
 
-        <section id="block2">
+        <section id="block2" class="section section-photo">
             <h2>Моё любимое фото</h2>
-            <img src="image.png" alt="Моё любимое фото">
+            <img src="image.png" alt="Моё фото" class="photo">
         </section>
 
-        <section id="block3">
+        <section id="block3" class="section section-achievements">
             <h2>Мои достижения</h2>
-            <ul>
-                <li>Поиграл в волейбол на физкультуре</li>
-                <li>Окончил 9 классов школы</li>
-                <li>Выпил <a href="https://moytoptyzhka.ru/">топтыжку</a> шоколодную по скидке в гулливере</li>
-                <li>Сделал мобильное приложение таймер помодоро</li>
+            <ul class="achievements-list">
+                <li class="achievement-item">Поиграл в волейбол на физкультуре</li>
+                <li class="achievement-item">Окончил 9 классов школы</li>
+                <li class="achievement-item">Выпил <a href="https://moytoptyzhka.ru/" class="link">топтыжку</a>
+                    шоколодную по скидке в гулливере</li>
+                <li class="achievement-item">Сделал мобильное приложение таймер помодоро</li>
             </ul>
         </section>
     </main>
 
-    <footer>
-        <div>
+    <footer class="footer">
+        <div class="footer-section">
             <h3>Контакты</h3>
-            <p>Телефон: +7 (667) 228-14-88</p>
-            <p>Email: gerasimov090608@gmail.com</p>
+            <p class="contact-info">Телефон: +7 (667) 228-14-88</p>
+            <p class="contact-info">Email: gerasimov090608@gmail.com</p>
         </div>
-        <div>
+
+        <div class="footer-section">
             <h3>Адрес</h3>
-            <p>г. Ульяновск, ул. Андрея Блаженного, д. 3</p>
+            <p class="address-info">г. Ульяновск, ул. Андрея Блаженного, д. 3</p>
         </div>
-        <div>
+
+        <div class="footer-section">
             <h3>Мои ссылки</h3>
-            <p><a href="https:/t.me/kirger1">Telegram</a></p>
-            <p><a href="https://github.com/kirgerz">GitHub</a></p>
+            <a href="https://t.me/kirger1" class="footer-link">Telegram</a><br>
+            <a href="https://github.com/kirgerz" class="footer-link">GitHub</a>
         </div>
     </footer>
-
 </body>
 
 </html>
